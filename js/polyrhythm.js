@@ -1,22 +1,22 @@
-// You can change values below, the value in () will show the default/recommended value
+// You can change values below, the value in [] will show the default/recommended value
 const settings = {
-    playOnLoad: false, // Start animation instantly (false)
-    fullscreenOnStart: true, // Fullscreen on animation start (true)
+    playOnLoad: false,          // [false] Start animation instantly 
+    fullscreenOnStart: false,   // [false] Fullscreen on animation start 
 
-    duration: 900,          // (900) Duration before returning to default position in seconds
-    loops: 84,              // (84) Amount of loops the inner most ball will make (Must be higher than the number of balls (21) / loopReduction)
-    loopReduction: 1,       // (1) Amount of loops that will be subtracted from each ball for the stagger
+    duration: 900,              // [900] Duration before returning to default position in seconds
+    loops: 84,                  // [84] Amount of loops the inner most ball will make (Must be higher than the number of balls (21) / loopReduction)
+    loopReduction: 1,           // [1] Amount of loops that will be subtracted from each ball for the stagger
 
-    lineWidth: 4,           // (4) Thickness of all lines drawn
-    showBaseline: true,     // (true) Show the bottom line
-    showArcs: true,         // (true) Show the paths the balls take
-    initialArcRadius: 0.05, // (0.05) Starting size of the smallest arc compaired to the length of the line
-    ballSize: 0.0075,       // (0.0075) Size of the balls compaired to the length of the line
+    lineWidth: 4,               // [4] Thickness of all lines drawn
+    showBaseline: true,         // [true] Show the bottom line
+    showArcs: true,             // [true] Show the paths the balls take
+    initialArcRadius: 0.05,     // [0.05] Starting size of the smallest arc compaired to the length of the line
+    ballSize: 0.0075,           // [0.0075] Size of the balls compaired to the length of the line
 
-    muteOnStart: false,     // (true) Waits until page is clicked to start playing audio
-    muteOnUnfocus: true,    // (TRUE HIGHLY RECOMMENDED) Stops sounds from playing when the page is not focussed
-    audioVolume: 20,        // (20) Volume of the ball bounces in %
-    hitSounds: "vibraphone" // ("vibraphone") Sets a type of sound between "bell", "vibraphone", "hammond" & "marimba" by changing the folder it looks for
+    muteOnStart: false,         // [true] Waits until page is clicked to start playing audio
+    muteOnUnfocus: true,        // [TRUE HIGHLY RECOMMENDED] Stops sounds from playing when the page is not focussed
+    audioVolume: 20,            // [20] Volume of the ball bounces in %
+    hitSounds: "vibraphone"     // ["vibraphone"] Sets a type of sound between "bell", "vibraphone", "hammond" & "marimba" by changing the folder it looks for
 };
 
 const canvas = document.getElementById("polyrhythm-canvas");

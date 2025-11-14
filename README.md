@@ -15,8 +15,8 @@ You are free to use the project however you want, it would be appreciated if you
 
 You can run the script in two ways:
 
-1. **Online via GitHub Pages**:  
-   [Click here to open](https://noomstuff.github.io/JS-Polyrhythm/)
+1. **Website**:  
+   [Click here to open](https://https://polyrhythm.noomstuff.com/)
 
 2. **Locally**:
    - Download or clone this repository
@@ -70,12 +70,3 @@ All settings are located in the `settings` object at the top of `polyrhythm.js`.
 
 - **`hitSounds`**:  
   Which instrument to use for ball impacts, will grab sounds from `sfx/<instrument>/hit<number>`.  (`"bell"`, `"vibraphone"`, `"hammond"`, `"marimba"`)
-
----
-
-## License
-
-This project is licensed under the MIT License.
-> See the [LICENSE](LICENSE) file for full details.
-
----
